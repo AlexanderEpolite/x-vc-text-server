@@ -98,7 +98,7 @@ const elysia = new Elysia()
                 allowed_mentions: {
                     parse: [],
                 },
-                name: user.username,
+                username: user.username,
                 avatar_url,
             }),
         });
