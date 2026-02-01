@@ -68,7 +68,7 @@ const elysia = new Elysia()
             "access-control-allow-origin": "*"
         };
         
-        if(!ctx.body.url.match(/https:\/\/x.com\/[a-z0-9_-]{1,30}\/status\/[0-9]{1,100}/)) {
+        if(!ctx.body.url.match(/https:\/\/x.com\/[a-zA-Z0-9_-]{1,30}\/status\/[0-9]{1,100}/)) {
             return "not ok";
         }
         
